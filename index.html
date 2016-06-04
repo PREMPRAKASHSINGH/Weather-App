@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/screen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+  <body>
+	<div class="container">
+		<div id="heading">
+			<h1 class="text-center">Weather app</h1>
+	  	</div><!--heading-->
+	  	<div class="row">
+	    	<div class="col-md-6 col-xs-8 col-xs-push-2 col-md-push-3">
+				<div class="weather text-center">
+					<div>
+	  					<b><h2 class="temp"></h2></b>
+					</div><!--temp-->
+					<div><h3>in<span class="city"></span>,<span class="country"></span></h3>
+					</div><!--city & country-->
+					<div class="iconpic">
+					  <img src="" class='img img-responsive center-block'>
+					</div><!--icon-->
+					<div class="toggle" id="c">
+						<button type="button" class="btn btn-danger btn-lg">Toggle temperature</button>    
+					</div><!--toggle temperature-->
+				</div><!--weather-->
+			</div><!--col-md-6-->
+		</div><!--row-->
+	  	<br>
+	 </div>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
