@@ -3,7 +3,7 @@ $(document).ready(function() {
 	if(navigator.geolocation){		navigator.geolocation.getCurrentPosition(function(pos){
 			var lat=pos.coords.latitude;
 			var lon=pos.coords.longitude;
- url="http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&APPID=b25ca364bc04acd2ca3e3aa725eb7097&units=metric";
+ url="https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&APPID=b25ca364bc04acd2ca3e3aa725eb7097&units=metric";
 			$.ajax({
 		url: url,
 		type: 'GET', 
